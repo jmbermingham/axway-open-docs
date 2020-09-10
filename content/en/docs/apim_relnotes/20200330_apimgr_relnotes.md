@@ -4,7 +4,6 @@ linkTitle: API Gateway and API Manager March 2020
 weight: 80
 date: 2020-03-11T00:00:00.000Z
 ---
-
 ## Summary
 
 API Gateway is available as a software installation or a virtualized deployment in Docker containers. API Manager is a licensed product running on top of API Gateway, and has the same deployment options as API Gateway.
@@ -15,7 +14,15 @@ Docker deployment is supported on Linux. For a summary of the system requirement
 
 ## New features and enhancements
 
-No new features and enhancements are available in this update.
+The following new features and enhancements are available in this update
+
+Upgrade to Open SSL 1.1.1; See more detail below.
+
+Updated information on FIPS topics; See more detail below.
+
+Significant build time reduction.
+
+
 
 <!-- Add the new features here -->
 
