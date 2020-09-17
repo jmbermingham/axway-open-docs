@@ -14,31 +14,21 @@ Docker deployment is supported on Linux. For a summary of the system requirement
 
 ## New features and enhancements
 
-The following new features and enhancements are available in this update.
+### User management module
 
-TLS v1.3 Support; See more details below
+This module has been added in preparation for **One user Multiple Organizations** support.
 
-New User Management module; This module has been added in preparation for 'One user-Multi org' support.
+### Updated OS Support
 
-Updated OS Support; The operating systems, CentOS 7 and 8 and RedHat 7 and 8 have been tested and validated.
+The operating systems CentOS 7, CentOS 8, RedHat 7, and RedHat 8 have been tested and validated.
 
-Swagger Parser upgrade; See more detail below.
+## Improved upgrade experience
 
-Improved Upgrade experience; 
-
-* New script update_apigw.sh for updating API Gateway/Manager installations, replacing the post installation script apigw_sp_post_install.sh
-
-  Automation of some manual steps for update
-
-  update_apimanager script still required
-
-  The update is still applied manually to each node in the topology
-
-  Scripts to apply updates for Policy Studio and Configuration Studio
-
-Log4J2 update; See more details below
-
-
+* You can use the script `update_apigw.sh` for updating API Gateway and API Manager installations, replacing the post installation script `apigw_sp_post_install.sh`.
+* Automation of some manual steps for update.
+* The `update_apimanager.sh` script still required.
+* The update is still applied manually to each node in the topology.
+* There are new scripts to apply updates for Policy Studio and Configuration Studio.
 
 ### Improved installation procedure
 
