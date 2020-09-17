@@ -14,10 +14,6 @@ Docker deployment is supported on Linux. For a summary of the system requirement
 
 ## New features and enhancements
 
-### User management module
-
-This module has been added in preparation for **One user Multiple Organizations** support.
-
 ### Updated OS Support
 
 The operating systems CentOS 7, CentOS 8, RedHat 7, and RedHat 8 have been tested and validated.
@@ -28,7 +24,7 @@ The operating systems CentOS 7, CentOS 8, RedHat 7, and RedHat 8 have been teste
 * Automation of some manual steps for update.
 * The `update_apimanager.sh` script still required.
 * The update is still applied manually to each node in the topology.
-* There are new scripts to apply updates for Policy Studio and Configuration Studio.
+* There are [new scripts](/docs/apim_reference/scripts_changelog_sp/) to apply updates for Policy Studio and Configuration Studio.
 
 ### Improved installation procedure
 
