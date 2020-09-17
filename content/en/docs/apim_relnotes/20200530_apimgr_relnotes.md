@@ -22,7 +22,7 @@ This module has been added in preparation for **One user Multiple Organizations*
 
 The operating systems CentOS 7, CentOS 8, RedHat 7, and RedHat 8 have been tested and validated.
 
-## Improved upgrade experience
+### Improved upgrade experience
 
 * You can use the script `update_apigw.sh` for updating API Gateway and API Manager installations, replacing the post installation script `apigw_sp_post_install.sh`.
 * Automation of some manual steps for update.
