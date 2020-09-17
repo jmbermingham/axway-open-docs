@@ -25,7 +25,6 @@ We have improved documentation with more detailed information to upgrade from pr
 
 * Added [checklists for upgrading single-node environment](/docs/apim_installation/apigw_upgrade/upgrade_steps_extcass/#upgrade-steps---single-node-upgrade-example).
 * Created a [list of API Gateway scripts that you must run after upgrade your product](/docs/apim_reference/scripts_changelog_sp/), which provides visibility of the changes from release to release.
-* Listed non-programmatic configuration points in the Gateway: System properties and External files (server.xml).
 
 ### MSSQL Database Support
 
