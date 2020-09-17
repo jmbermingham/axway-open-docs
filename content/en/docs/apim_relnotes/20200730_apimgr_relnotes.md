@@ -4,6 +4,7 @@ linkTitle: API Gateway and API Manager July 2020
 weight: 70
 date: 2020-06-09T00:00:00.000Z
 ---
+
 ## Summary
 
 API Gateway is available as a software installation or a virtualized deployment in Docker containers. API Manager is a licensed product running on top of API Gateway, and has the same deployment options as API Gateway.
@@ -14,26 +15,21 @@ Docker deployment is supported on Linux. For a summary of the system requirement
 
 ## New features and enhancements
 
-The features and enhancements for this update are as follows;
+### ICAP filter improvements
 
-Technical preview of the 'One User-Multi-Org' capability; In advance of being made available generally in the September 2020 update (7.7.20200930), we are offering a technical preview of the ‘one user belonging to multiple organisations’ capability.
+We have made further improvements for Internet Content Adaption Protocol (ICAP) support as embedded AV filters are deprecated. For more information, see [Deprecated features](#deprecated-features).
 
-ICAP filter improvements; Making further improvements for ICAP support as embedded AV filters are deprecated (see below under 'deprecation features').
+### Improved upgrade instructions
 
-Improved Upgrade Guidance; More detailed step by step guidance to upgrade from previous versions to the latest version of the product.
+We have improved documentation with more detailed information to upgrade from previous versions to the latest version of the product.
 
-* Added checklists to the steps for upgrading single node environment
+* Added [checklists for upgrading single-node environment](/docs/apim_installation/apigw_upgrade/upgrade_steps_extcass/#upgrade-steps---single-node-upgrade-example).
+* Created a [list of API Gateway scripts that you must run after upgrade your product](/docs/apim_reference/scripts_changelog_sp/), which provides visibility of the changes from release to release.
+* Listed non-programmatic configuration points in the Gateway: System properties and External files (server.xml).
 
-Listed non-programmatic configuration points in the Gateway
+### MSSQL Database Support
 
-* * System properties
-  * External files (server.xml)
-
-Visability of the changes from release to release (change log)
-
-MSSQL Database Support; Tested validation of MSSQL 2016/7/9 databases for use with API Gateway and API Analytics.
-
-
+We have tested and validated `MSSQL 2016/7/9` databases for use with API Gateway and API Analytics.
 
 ## Important changes
 
