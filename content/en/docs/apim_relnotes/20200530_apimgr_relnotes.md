@@ -20,17 +20,11 @@ The operating systems CentOS 7, CentOS 8, RedHat 7, and RedHat 8 have been teste
 
 ### Improved upgrade experience
 
-* You can use the script `update_apigw.sh` for updating API Gateway and API Manager installations, replacing the post installation script `apigw_sp_post_install.sh`.
+* You can use the script `update_apigw.sh` for updating API Gateway and API Manager installations, replacing the post installation script `apigw_sp_post_install.sh`. This automates some of the previous manual steps. It supports backups and can run in unattended mode. For more information about the usage of the script see the [installation steps](#installation) and the `--help` output
 * Automation of some manual steps for update.
 * The `update_apimanager.sh` script still required.
 * The update is still applied manually to each node in the topology.
 * There are [new scripts](/docs/apim_reference/scripts_changelog_sp/) to apply updates for Policy Studio and Configuration Studio.
-
-### Improved installation procedure
-
-An update script is provided to apply the update to each API Gateway or API Manager installation. This automates some of the previous manual steps. It supports backups and can run in unattended mode. For more information about the usage of the script see the [installation steps](#installation) and the `--help` output.
-
-Update scripts are also provided for Policy Studio and Configuration Studio updates.
 
 ## Important changes
 
